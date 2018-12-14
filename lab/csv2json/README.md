@@ -13,7 +13,7 @@ Functionalities implemented in this assignment are
 To run the code you can use the following commands:
   - node index.js
   - node index.js test.csv
-  - node index.js <your-file-name>
+  - node index.js < your-file-name >
 
    [module]: <https://www.npmjs.com/package/csvtojson>
    
