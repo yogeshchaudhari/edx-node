@@ -34,4 +34,8 @@ app.delete('/profile/:id', (request, response) => {
 	response.status(200).send('deleted');
 });
 
+app.get('/query', (request, response) => {
+	response.status(202).send(request.query);
+})
+
 app.listen(3000);
